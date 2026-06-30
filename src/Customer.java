@@ -7,7 +7,6 @@ public class Customer extends Person implements Searchable, Valuable {
     private ArrayList<Customer> customers = new ArrayList<>();
 
     public Customer(String maKH, String hoTen, String soDienThoai, CustomerType loaiKH) {
-
         super(hoTen, soDienThoai);
         this.maKH = maKH;
         this.loaiKH = loaiKH;
@@ -22,7 +21,6 @@ public class Customer extends Person implements Searchable, Valuable {
     public String getMaKH() {
         return maKH;
     }
-
 
     public void setMaKH(String maKH){
         this.maKH = maKH;
